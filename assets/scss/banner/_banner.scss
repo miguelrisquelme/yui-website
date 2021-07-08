@@ -1,0 +1,19 @@
+@import "./banner-content";
+@import "./banner-title";
+@import "./banner-subtitle";
+
+.banner {
+  width: 100%;
+  height: 50vh;
+
+  background-image: url("https://images3.alphacoders.com/791/thumb-1920-791278.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}

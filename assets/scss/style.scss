@@ -1,2 +1,16 @@
-@import "./_normalize.scss";
-@import "./_reset.scss";
+@import "./normalize";
+
+@import "./fonts";
+
+@import "./colors";
+@import "./variables";
+@import "./reset";
+@import "./general";
+
+@import "./banner/banner";
+@import "./goTop/goTop";
+
+body {
+  height: 500vh;
+  background-color: $gray;
+}
