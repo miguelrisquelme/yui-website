@@ -34,30 +34,46 @@
   </head>
   <body onselectstart="return false">
     <header>
-      <div class="banner">
+      <section id="banner" class="banner">
         <div class="banner__content">
           <h1 class="banner__title">Yui</h1>
           <p class="banner__subtitle">A bot made to general purposes</p>
         </div>
-      </div>
+      </section>
     </header>
-    <section class="summary container">
-      <h2 class="summary__title">Summary</h2>
-      <p class="summary__subtitle">Where do you want to go?</p>
+    <section id="summary" class="summary container">
+      <h2 class="title">Summary</h2>
+      <p class="subtitle">Where do you want to go?</p>
       <ul class="summary__list">
         <li class="summary__item">
-          <a class="summary__link" href="#">About</a>
+          <a class="summary__link" href="#about">About</a>
         </li>
         <li class="summary__item">
-          <a class="summary__link" href="#">Contribute</a>
+          <a class="summary__link" href="#commands">Commands</a>
         </li>
         <li class="summary__item">
-          <a class="summary__link" href="#">Commands</a>
+          <a class="summary__link" href="#contribute">Contribute</a>
         </li>
         <li class="summary__item">
-          <a class="summary__link" href="#">Made by</a>
+          <a class="summary__link" href="#madeBy">Made by</a>
         </li>
       </ul>
+    </section>
+    <section id="about" class="about container">
+      <h2 class="title">About</h2>
+      <p class="subtitle">Let me introduce you a little bit about me</p>
+    </section>
+    <section id="commands" class="commands container">
+      <h2 class="title">Commands</h2>
+      <p class="subtitle">These are all my commands currently</p>
+    </section>
+    <section id="contribute" class="contribute container">
+      <h2 class="title">Contribute</h2>
+      <p class="subtitle">How can you contribute to my development</p>
+    </section>
+    <section id="madeBy" class="madeBy container">
+      <h2 class="title">Made By</h2>
+      <p class="subtitle">I was made by these people</p>
     </section>
     <div class="goTop">
       <img
