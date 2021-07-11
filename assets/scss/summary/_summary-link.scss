@@ -1,0 +1,17 @@
+.summary__link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: $gray;
+
+  text-decoration: none;
+  background-color: $pink;
+
+  padding: 10px;
+  border-radius: 3px;
+
+  transition: 1s;
+}
+
+.summary__link:hover {
+  background-color: $light-blue;
+}

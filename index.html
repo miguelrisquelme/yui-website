@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.min.css" />
   </head>
-  <body>
+  <body onselectstart="return false">
     <header>
       <div class="banner">
         <div class="banner__content">
@@ -41,6 +41,24 @@
         </div>
       </div>
     </header>
+    <section class="summary container">
+      <h2 class="summary__title">Summary</h2>
+      <p class="summary__subtitle">Where do you want to go?</p>
+      <ul class="summary__list">
+        <li class="summary__item">
+          <a class="summary__link" href="#">About</a>
+        </li>
+        <li class="summary__item">
+          <a class="summary__link" href="#">Contribute</a>
+        </li>
+        <li class="summary__item">
+          <a class="summary__link" href="#">Commands</a>
+        </li>
+        <li class="summary__item">
+          <a class="summary__link" href="#">Made by</a>
+        </li>
+      </ul>
+    </section>
     <div class="goTop">
       <img
         class="goTop__icon"
