@@ -2,5 +2,6 @@
 @import "./summary-list";
 @import "./summary-link";
 
-.summary {
+.disabled {
+  display: none;
 }

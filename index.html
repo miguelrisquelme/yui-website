@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.min.css" />
   </head>
-  <body onselectstart="return false">
+  <body>
     <header>
       <section id="banner" class="banner">
         <div class="banner__content">
@@ -46,41 +46,103 @@
       <p class="subtitle">Where do you want to go?</p>
       <ul class="summary__list">
         <li class="summary__item">
-          <a class="summary__link" href="#about">About</a>
+          <a class="summary__link disabled" href="#about">About</a>
         </li>
         <li class="summary__item">
           <a class="summary__link" href="#commands">Commands</a>
         </li>
         <li class="summary__item">
-          <a class="summary__link" href="#contribute">Contribute</a>
+          <a class="summary__link disabled" href="#contribute">Contribute</a>
         </li>
         <li class="summary__item">
-          <a class="summary__link" href="#madeBy">Made by</a>
+          <a class="summary__link disabled" href="#madeBy">Made by</a>
         </li>
       </ul>
     </section>
-    <section id="about" class="about container">
+    <!-- <section id="about" class="about container">
       <h2 class="title">About</h2>
       <p class="subtitle">Let me introduce you a little bit about me</p>
-    </section>
+    </section> -->
     <section id="commands" class="commands container">
       <h2 class="title">Commands</h2>
       <p class="subtitle">These are all my commands currently</p>
+      <hr />
+      <ul class="commands__listCommands">
+        <li class="commands__command">
+          <h3 class="commands__titleCommand">Time</h3>
+          <span class="commands__description">What time is it now?</span>
+          <div class="commands__example">
+            <p class="commands__textExample">❯ time</p>
+          </div>
+        </li>
+        <li class="commands__command">
+          <h3 class="commands__titleCommand">Media</h3>
+          <span class="commands__description">Some image or video content</span>
+          <div class="commands__example">
+            <p class="commands__textExample">❯ media random</p>
+            <p class="commands__textExample">❯ media meme</p>
+          </div>
+        </li>
+        <li class="commands__command">
+          <h3 class="commands__titleCommand">Money</h3>
+          <span class="commands__description"
+            >See the quote of some currencies for BRL</span
+          >
+          <div class="commands__example">
+            <p class="commands__textExample">❯ money bitcoin</p>
+            <p class="commands__textExample">❯ money dolar</p>
+            <p class="commands__textExample">❯ money euro</p>
+          </div>
+        </li>
+        <li class="commands__command">
+          <h3 class="commands__titleCommand">Anime</h3>
+          <span class="commands__description"> some commands about anime </span>
+          <div class="commands__example">
+            <p class="commands__textExample">❯ anime img [anime name]</p>
+            <p class="commands__complement">> anime img one piece</p>
+
+            <p class="commands__textExample">❯ anime list</p>
+
+            <p class="commands__textExample">❯ anime search [anime name]</p>
+            <p class="commands__complement">> anime search one piece</p>
+
+            <p class="commands__textExample">❯ anime sfw [item over list]</p>
+            <p class="commands__complement">
+              waifu, neko, shinobu megumin, bully, cuddle, cry, hug, awoo, kiss,
+              lick, pat, smug, bonk, yeet, blush, smile, wave, highfive,
+              handhold, nom, bite, glomp, slap, kill, kick, happy, wink, poke,
+              dance, cringe
+            </p>
+          </div>
+        </li>
+        <li class="commands__command">
+          <h3 class="commands__titleCommand">Music</h3>
+          <span class="commands__description"
+            >Play your musics with your friends</span
+          >
+          <div class="commands__example">
+            <p class="commands__textExample">❯ music play [music url]</p>
+            <p class="commands__complement">
+              ❯ music play https://youtu.be/BRxDCedMJrA
+            </p>
+          </div>
+        </li>
+      </ul>
     </section>
-    <section id="contribute" class="contribute container">
+    <!-- <section id="contribute" class="contribute container">
       <h2 class="title">Contribute</h2>
       <p class="subtitle">How can you contribute to my development</p>
-    </section>
-    <section id="madeBy" class="madeBy container">
+    </section> -->
+    <!-- <section id="madeBy" class="madeBy container">
       <h2 class="title">Made By</h2>
       <p class="subtitle">I was made by these people</p>
-    </section>
-    <div class="goTop">
+    </section> -->
+    <a href="#summary" class="goTop">
       <img
         class="goTop__icon"
         src="./assets/icon/angle-up-solid.svg"
         alt="icon arrow top"
       />
-    </div>
+    </a>
   </body>
 </html>
